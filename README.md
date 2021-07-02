@@ -1,48 +1,20 @@
-# python-template-repository
+# mplfinance
 
-本リポジトリはPython 環境のテンプレートリポジトリです。
+Pandas DataFrame のOHLC データから様々なグラフを簡単に描画できる可視化ライブラリを使ったリポジトリです。
 
 ## リポジトリ構成
 
 ```
 .
-├── Dockerfile
 ├── README.md
-├── example
-├── requirements.txt
-└── src
-    └── __init__.py
+└── notebooks
 ```
 
 ## 環境詳細
 
-- Python : 3.9.4
+- Google Colab
 
-## 事前準備
+## 参考リポジトリ
 
-- Docker インストール
+- https://github.com/matplotlib/mplfinance
 
-## 環境構築
-
-- Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/python-template-repository）
-
-```
-cd Desktop/python-template-repository
-```
-
-- Dockerによる環境構築（フォルダをマウント：Desktop/python-template-repository）
-
-```
-docker-compose up --build
-```
-
-- ブラウザーを立ち上げてlocalhost:8888へアクセス
-- ローカルフォルダがマウントされている
-
-## 動作環境
-
-マシンスペック（Mac)
-
-- MacBook Air (Retina, 13-inch, 2018)
-- 1.6 GHz デュアルコアIntel Core i5
-- 8 GB 2133 MHz LPDDR3
